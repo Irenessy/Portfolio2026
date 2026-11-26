@@ -81,15 +81,8 @@ html[lang=en] .opening-copy h2{font-size:clamp(36px,5vw,76px)}
 }
 .opening-scene--operations .opening-art img:first-child{transform:translate(-5%,-8%) rotate(-2deg)}
 .opening-scene--operations .opening-art img:last-child{transform:translate(36%,43%) rotate(4deg)}
-.opening-scene--checkout .opening-art{
-  display:flex;
-  justify-content:center;
-  gap:4%;
-}
-.opening-scene--checkout img{width:24%;height:auto;max-height:53svh;object-fit:contain;background:#f8f8f6}
-.opening-scene--checkout img:first-child{transform:translateY(9%) rotate(-7deg)}
-.opening-scene--checkout img:nth-child(2){transform:translateY(-5%);z-index:1}
-.opening-scene--checkout img:last-child{transform:translateY(11%) rotate(7deg)}
+.opening-scene--learning .opening-art img:first-child{width:80%;transform:translate(-9%,-12%) rotate(-4deg);z-index:1}
+.opening-scene--learning .opening-art img:last-child{width:49%;transform:translate(44%,30%) rotate(5deg);z-index:2}
 .opening-controls{
   grid-row:2;
   display:grid;
@@ -115,7 +108,7 @@ html:has(#portfolio-entry:target){scroll-behavior:auto}
   .opening-copy h2,html[lang=en] .opening-copy h2{font-size:clamp(35px,8.1vw,56px)}
   .opening-copy p{margin-bottom:9px}
   .opening-art{width:min(100%,470px);margin-inline:auto}
-  .opening-scene--checkout img{width:20%;max-height:34svh}
+
   .opening-controls{font-size:13px}
 }
 @media(max-height:560px) and (min-width:721px){

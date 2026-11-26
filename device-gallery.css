@@ -31,7 +31,7 @@ html[lang=en] .exhibit-copy h3{font-size:clamp(31px,3.65vw,56px)}
 .exhibit-position{display:flex;align-items:center;gap:13px;font:500 14px/1 ui-monospace,monospace;font-variant-numeric:tabular-nums;color:#9ab1c6}
 .exhibit-position b{color:#cfebff;font-weight:600}.exhibit-position small{font:inherit}
 .exhibit-position span{width:clamp(64px,8vw,140px);height:2px;background:#344558}
-.exhibit-position span::before{content:"";display:block;width:100%;height:100%;background:#85ceff;transform-origin:left;transform:scaleX(var(--fraction,.2));transition:transform .45s ease}
+.exhibit-position span::before{content:"";display:block;width:100%;height:100%;background:#85ceff;transform-origin:left;transform:scaleX(var(--fraction,.25));transition:transform .45s ease}
 .device-controls{display:flex;gap:9px}
 .device-controls button{display:grid;place-items:center;flex:0 0 44px;box-sizing:border-box;width:44px;height:44px;padding:0;border-radius:50%;appearance:none;border:1px solid #55728c;background:transparent;color:#aad9ff;cursor:pointer}
 .device-controls button:hover{background:#20394d;border-color:#98cbf0}

@@ -5,7 +5,7 @@ function createLightField(canvas) {
   if (!ctx) return () => {};
   const reduce = matchMedia('(prefers-reduced-motion: reduce)');
   const presets = [
-    [-.15, .58, .17, 1.0], [.14, 1.18, .32, 1.7], [-.43, .82, .08, 2.6],
+    [-.15, .58, .17, 1.0], [.14, 1.18, .32, 1.7],
     [.25, .44, .40, 3.8], [-.24, 1.37, .22, 5.2],
   ];
   let current = presets[0].slice();
